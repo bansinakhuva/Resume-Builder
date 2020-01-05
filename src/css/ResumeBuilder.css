@@ -1,0 +1,78 @@
+#resumeBuilder {
+    margin-top: 2%;
+    display: flex;
+    background-color: white;
+}
+
+#inputfoto {
+    cursor: pointer;
+}
+
+#inserta_imagenlabel img {
+    width: 3.5rem;
+    position: relative;
+    opacity: 1;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+label {
+    position: relative;
+}
+
+.cont_fotodiv {
+    position: relative;
+    width: 235px;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 10rem;
+    background: grey;
+    overflow: hidden;
+    background-position: 50% 50%!important;
+    background-size: cover!important;
+    cursor: pointer!important;
+}
+
+#colOne, #colTwo {
+    margin-top: 2% !important;
+}
+
+.camImageMargin {
+    margin: 38%;
+    margin-bottom: 0;
+}
+
+.row {
+    color: #007bff;
+}
+
+input:focus {
+	background: rgba(128, 128, 128, .2);
+	border-radius: 5px
+}
+
+textarea:focus {
+	background: rgba(128, 128, 128, .2);
+	border-radius: 5px
+}
+
+input, textarea {
+    color: gray;
+    border: none;
+    word-wrap: break-word;
+    resize: none;
+    overflow: hidden;
+}
+
+:focus {
+	outline: 0
+}
+
+.personalDetails {
+    margin: 6px;
+}
+
+h6 {
+    margin-bottom: 0;
+}
